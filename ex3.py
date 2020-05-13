@@ -7,7 +7,7 @@ class HelloWorld(QWidget):
         self.setFixedSize(400, 300)
         self.setWindowTitle("IHM")
 
-        self.setWindowIcon(QIcon("fr-flag.png"))
+        self.setWindowIcon(QIcon("fr-flag.png")) #chemin de l'image
 
         self.layout = QVBoxLayout()
 
